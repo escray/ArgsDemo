@@ -1,11 +1,5 @@
 package cn.extremeprogramming.kata;
 
-import java.util.HashMap;
-import java.util.Map;
-
-import static java.lang.Boolean.parseBoolean;
-import static java.lang.Integer.parseInt;
-
 public class Argument {
     public String label;
     public String rawValue;
@@ -21,7 +15,6 @@ public class Argument {
         return this.label.equals(label);
     }
 
-    // TODO: 6 lines ?
     public Object value() {
         return valueUsingFactory(type, rawValue);
     }
