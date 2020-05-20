@@ -59,7 +59,7 @@
         <module name="OuterTypeFilename"/>
         <module name="MethodLength">
             <property name="tokens" value="METHOD_DEF"/>
-            <property name="max" value="6"/>
+            <property name="max" value="5"/>
             <property name="countEmpty" value="false"/>
             <property name="severity" value="error" />
         </module>
